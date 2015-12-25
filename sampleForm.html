@@ -1,0 +1,26 @@
+<!DOCTYPE html>  
+<html>
+<head> 
+	<title>Simple Validation Form</title>  
+
+	<script type="text/javascript" src="function.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>  
+<body>  
+	<h1>Registration Form</h1>  
+	<p>Use tab keys to move from one input field to the next.</p>  
+	<form onsubmit="return validation();">  
+		<ul>  
+			<li><label> Name:</label></li> 	 
+			<li><input id="name" type="text" minlength="3" /></li>  
+			<li><label> Email:</label></li>  
+			<li><input id="email" type="email"/></li>  
+			<li><label> Phone number:</label></li>  
+			<li><input id="phone" type="number" /></li>  
+			<li><label> Password:</label></li>  
+			<li><input id="password" type="password"/></li>    
+			<p><li><input type="submit" name="submit" value="Submit" /></li></p>  
+		</ul>  
+	</form>  
+</body>  
+</html>  
